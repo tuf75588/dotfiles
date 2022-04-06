@@ -9,7 +9,7 @@ fi
 
 # my ls command aliases #
 alias ls='ls --color=auto'
-
+alias fp='find ~ \( -type f -not -perm 0600 \) -o \( -type d -not -perm 0700 \)'
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 
